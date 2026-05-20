@@ -1,0 +1,29 @@
+{
+  "name": "trupesh-academic-profile",
+  "version": "1.0.0",
+  "description": "Academic profile and research portfolio for Dr. Trupesh Patel, Assistant Professor at Karnavati University",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "git push origin main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trupesh/trupesh.github.io.git"
+  },
+  "keywords": [
+    "academic",
+    "profile",
+    "assistant professor",
+    "research",
+    "federated learning",
+    "deep learning",
+    "machine learning"
+  ],
+  "author": "Dr. Trupesh Patel",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
